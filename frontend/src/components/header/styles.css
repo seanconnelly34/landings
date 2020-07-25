@@ -1,0 +1,16 @@
+.background {
+  height: auto;
+  padding: 70px;
+  background-color: #2c2c2c;
+  background-image: url("./flower.png");
+}
+
+@media only screen and (max-width: 500px) {
+  .logoMobile {
+    width: 99%;
+  }
+  .MuiTab-wrapper {
+    text-align: left;
+    font-size: 14px !important;
+  }
+}
